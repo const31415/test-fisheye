@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?application progid="SMath Studio Desktop" version="0.98.6179.21440"?>
-<regions>
+<?application progid="SMath Studio Desktop" version="0.98.6325.17194"?>
+<regions xmlns="http://smath.info/schemas/worksheet/1.0">
   <settings>
     <identity>
       <id>77de0ea5-e68e-4486-9c8f-4b41abb35a8c</id>
-      <revision>89</revision>
+      <revision>120</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -19,16 +19,16 @@
       <backgrounds />
     </pageModel>
     <dependencies>
-      <assembly name="SMath Studio Desktop" version="0.98.6179.21440" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
-      <assembly name="Math Region" version="0.98.6179.21440" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
-      <assembly name="Special Functions" version="1.11.6179.21442" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
-      <assembly name="Text Region" version="1.10.6179.21446" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
-      <assembly name="Plot Region" version="1.9.6179.21450" guid="c451c2b5-798b-4f08-b9ec-b90963d1ddaa" />
+      <assembly name="SMath Studio Desktop" version="0.98.6325.17194" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.98.6325.17194" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Special Functions" version="1.11.6325.17195" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
+      <assembly name="Text Region" version="1.10.6325.17200" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+      <assembly name="Plot Region" version="1.9.6325.17204" guid="c451c2b5-798b-4f08-b9ec-b90963d1ddaa" />
     </dependencies>
   </settings>
   <region id="0" top="0" color="#000000" bgColor="#ffffff">
     <area collapsed="false" />
-    <region id="1" left="9" top="9" width="264" height="110" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="1" left="9" top="9" width="319" height="117" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">fa</e>
@@ -40,13 +40,13 @@
           <e type="operand">2</e>
           <e type="function" preserve="true" args="2">el</e>
           <e type="function" preserve="true" args="1">abs</e>
-          <e type="operand">0.99</e>
+          <e type="operand">1.9999</e>
           <e type="operand">π</e>
           <e type="operand">2</e>
           <e type="operator" args="2">/</e>
           <e type="operator" args="2">*</e>
           <e type="operator" args="2">&gt;</e>
-          <e type="operand">0.99</e>
+          <e type="operand">0.9999</e>
           <e type="operand">π</e>
           <e type="operand">2</e>
           <e type="operator" args="2">/</e>
@@ -62,7 +62,7 @@
         </input>
       </math>
     </region>
-    <region id="2" left="396" top="18" width="361" height="229" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="2" left="396" top="18" width="420" height="243" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">x</e>
@@ -123,7 +123,7 @@
         </input>
       </math>
     </region>
-    <region id="3" left="9" top="144" width="388" height="45" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="3" left="9" top="144" width="453" height="48" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">fa</e>
@@ -162,7 +162,7 @@
         </input>
       </math>
     </region>
-    <region id="4" left="9" top="216" width="195" height="25" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="4" left="9" top="216" width="215" height="26" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">fa</e>
@@ -173,17 +173,17 @@
         </input>
       </math>
     </region>
-    <region id="5" left="216" top="216" width="192" height="23" color="#ff0000" bgColor="#ffffff" fontSize="10">
+    <region id="5" left="216" top="216" width="197" height="24" color="#ff0000" bgColor="#ffffff" fontSize="10">
       <text lang="rus">
         <p>!!!! distort/undistort </p>
       </text>
     </region>
-    <region id="6" left="423" top="270" width="208" height="23" color="#804040" bgColor="#ffffff" fontSize="10">
+    <region id="6" left="423" top="270" width="209" height="24" color="#804040" bgColor="#ffffff" fontSize="10">
       <text lang="rus">
         <p>///// r=f*tanθ   gnomonic</p>
       </text>
     </region>
-    <region id="7" left="225" top="279" width="131" height="25" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="7" left="225" top="279" width="149" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">θ</e>
@@ -194,7 +194,7 @@
         </input>
       </math>
     </region>
-    <region id="8" left="225" top="324" width="146" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="8" left="225" top="324" width="168" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">θ</e>
@@ -209,12 +209,12 @@
         </input>
       </math>
     </region>
-    <region id="9" left="441" top="324" width="272" height="23" color="#804040" bgColor="#ffffff" fontSize="10">
+    <region id="9" left="441" top="324" width="275" height="24" color="#804040" bgColor="#ffffff" fontSize="10">
       <text lang="rus">
         <p>///// r=2f*tanθ/2   stereographic</p>
       </text>
     </region>
-    <region id="10" left="234" top="378" width="107" height="25" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="10" left="234" top="378" width="121" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">θ</e>
@@ -224,12 +224,12 @@
         </input>
       </math>
     </region>
-    <region id="11" left="441" top="378" width="288" height="23" color="#804040" bgColor="#ffffff" fontSize="10">
+    <region id="11" left="441" top="378" width="291" height="24" color="#804040" bgColor="#ffffff" fontSize="10">
       <text lang="rus">
         <p>///// r=f*θ   F-theta / equidistant</p>
       </text>
     </region>
-    <region id="12" left="225" top="414" width="154" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="12" left="225" top="414" width="177" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">θ</e>
@@ -244,12 +244,12 @@
         </input>
       </math>
     </region>
-    <region id="13" left="441" top="423" width="248" height="23" color="#804040" bgColor="#ffffff" fontSize="10">
+    <region id="13" left="441" top="423" width="250" height="24" color="#804040" bgColor="#ffffff" fontSize="10">
       <text lang="rus">
         <p>///// r=2f*sinθ/2   equal area</p>
       </text>
     </region>
-    <region id="14" left="225" top="468" width="139" height="25" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="14" left="225" top="468" width="158" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">θ</e>
@@ -260,12 +260,12 @@
         </input>
       </math>
     </region>
-    <region id="15" left="441" top="468" width="240" height="23" color="#804040" bgColor="#ffffff" fontSize="10">
+    <region id="15" left="441" top="468" width="242" height="24" color="#804040" bgColor="#ffffff" fontSize="10">
       <text lang="rus">
         <p>///// r=f*sinθ   orthographic</p>
       </text>
     </region>
-    <region id="16" left="18" top="522" width="214" height="25" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="16" left="18" top="522" width="247" height="26" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">efl</e>
@@ -279,20 +279,22 @@
         </input>
       </math>
     </region>
-    <region id="17" left="252" top="522" width="128" height="23" color="#ff0000" bgColor="#ffffff" fontSize="10">
+    <region id="17" left="252" top="522" width="242" height="24" color="#ff0000" bgColor="#ffffff" fontSize="10">
       <text lang="rus">
-        <p>!!!! - variable</p>
+        <p>!!!! - map_function variable</p>
       </text>
     </region>
-    <region id="18" left="108" top="558" width="378" height="85" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="18" left="315" top="567" width="514" height="161" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">Dymax</e>
           <e type="operand">Dgrad</e>
           <e type="function" args="2">efl_f</e>
+          <e type="operand">res</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="2">el</e>
           <e type="operand">Dymax</e>
           <e type="operand">2</e>
-          <e type="operator" args="2">/</e>
           <e type="operand">1</e>
           <e type="operand">0</e>
           <e type="operand">Dgrad</e>
@@ -309,36 +311,41 @@
           <e type="operand">2</e>
           <e type="function" preserve="true" args="2">el</e>
           <e type="function" args="2">r_map</e>
+          <e type="operator" args="2">*</e>
           <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">res</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="2">el</e>
+          <e type="operand">Dymax</e>
+          <e type="operand">2</e>
+          <e type="operand">0</e>
+          <e type="operand">Dgrad</e>
+          <e type="operand">180</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">π</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+          <e type="function" args="1">lens_fa</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="2">el</e>
+          <e type="function" args="1">r_map_FT</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">res</e>
+          <e type="operand">3</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="5">line</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region id="19" left="576" top="585" width="177" height="25" color="#0000ff" bgColor="#ffffff" fontSize="10">
-      <math>
-        <input>
-          <e type="operand">4.8</e>
-          <e type="operand">180</e>
-          <e type="function" args="2">efl_f</e>
-        </input>
-        <result action="numeric">
-          <e type="operand">1.5433</e>
-        </result>
-      </math>
-    </region>
-    <region id="20" left="576" top="612" width="177" height="25" color="#0000ff" bgColor="#ffffff" fontSize="10">
-      <math>
-        <input>
-          <e type="operand">3.6</e>
-          <e type="operand">110</e>
-          <e type="function" args="2">efl_f</e>
-        </input>
-        <result action="numeric">
-          <e type="operand">1.8751</e>
-        </result>
-      </math>
-    </region>
-    <region id="21" left="18" top="648" width="147" height="25" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="19" left="18" top="720" width="171" height="26" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">EFL</e>
@@ -349,27 +356,33 @@
         </input>
       </math>
     </region>
-    <region id="22" left="189" top="648" width="136" height="23" color="#ff0000" bgColor="#ffffff" fontSize="10">
+    <region id="20" left="189" top="720" width="172" height="24" color="#ff0000" bgColor="#ffffff" fontSize="10">
       <text lang="rus">
-        <p>!!!!  - variable</p>
+        <p>!!!!  - EFL variable</p>
       </text>
     </region>
-    <region id="23" left="36" top="684" width="97" height="23" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="21" left="36" top="756" width="121" height="45" color="#ff0000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">EFL</e>
         </input>
         <result action="numeric">
-          <e type="operand">1.9935</e>
+          <e type="operand">1.9735</e>
+          <e type="operand">1.9735</e>
+          <e type="operand">2</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="4">mat</e>
         </result>
       </math>
     </region>
-    <region id="24" left="306" top="684" width="431" height="35" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="22" left="306" top="756" width="538" height="37" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">fa</e>
           <e type="function" args="1">fa2xy</e>
           <e type="operand">EFL</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="2">el</e>
           <e type="operand">fa</e>
           <e type="operand">2</e>
           <e type="function" preserve="true" args="2">el</e>
@@ -380,6 +393,8 @@
           <e type="function" preserve="true" args="1">cos</e>
           <e type="operator" args="2">*</e>
           <e type="operand">EFL</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="2">el</e>
           <e type="operand">fa</e>
           <e type="operand">2</e>
           <e type="function" preserve="true" args="2">el</e>
@@ -396,7 +411,7 @@
         </input>
       </math>
     </region>
-    <region id="25" left="477" top="729" width="243" height="27" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="23" left="477" top="801" width="268" height="28" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">fa</e>
@@ -408,11 +423,91 @@
         </input>
       </math>
     </region>
-    <region id="26" left="27" top="747" width="267" height="44" color="#0000ff" bgColor="#ffffff" fontSize="10">
-      <math>
+    <region id="24" top="837" color="#000000" bgColor="#ffffff">
+      <area collapsed="true" />
+      <region id="25" left="18" top="846" width="547" height="101" color="#000000" bgColor="#ffffff" fontSize="10">
+        <math>
+          <input>
+            <e type="operand">a</e>
+            <e type="function" args="1">illum10th</e>
+            <e type="operand">0</e>
+            <e type="operand">a</e>
+            <e type="operand">π</e>
+            <e type="operand">360</e>
+            <e type="operator" args="2">/</e>
+            <e type="operator" args="2">*</e>
+            <e type="operand">1</e>
+            <e type="operand">2</e>
+            <e type="function" preserve="true" args="4">mat</e>
+            <e type="function" args="1">sensor_xy</e>
+            <e type="operand">1</e>
+            <e type="function" preserve="true" args="2">el</e>
+            <e type="operand">2</e>
+            <e type="operator" args="2">^</e>
+            <e type="operand">0</e>
+            <e type="operand">a</e>
+            <e type="operand">10</e>
+            <e type="operator" args="2">-</e>
+            <e type="bracket">(</e>
+            <e type="operand">π</e>
+            <e type="operand">360</e>
+            <e type="operator" args="2">/</e>
+            <e type="operator" args="2">*</e>
+            <e type="operand">1</e>
+            <e type="operand">2</e>
+            <e type="function" preserve="true" args="4">mat</e>
+            <e type="function" args="1">sensor_xy</e>
+            <e type="operand">1</e>
+            <e type="function" preserve="true" args="2">el</e>
+            <e type="bracket">(</e>
+            <e type="operand">2</e>
+            <e type="operator" args="2">^</e>
+            <e type="operator" args="2">-</e>
+            <e type="operand">a</e>
+            <e type="operand">10</e>
+            <e type="operator" args="2">-</e>
+            <e type="bracket">(</e>
+            <e type="operand">π</e>
+            <e type="operand">360</e>
+            <e type="operator" args="2">/</e>
+            <e type="operator" args="2">*</e>
+            <e type="function" preserve="true" args="1">cos</e>
+            <e type="operand">a</e>
+            <e type="operand">π</e>
+            <e type="operand">360</e>
+            <e type="operator" args="2">/</e>
+            <e type="operator" args="2">*</e>
+            <e type="function" preserve="true" args="1">cos</e>
+            <e type="operator" args="2">-</e>
+            <e type="operator" args="2">/</e>
+            <e type="operator" args="2">:</e>
+          </input>
+        </math>
+      </region>
+      <region id="26" left="423" top="927" width="366" height="45" color="#000000" bgColor="#ffffff" fontSize="10">
+        <math>
+          <input>
+            <e type="operand">Dgrad2</e>
+            <e type="operand">Dgrad1</e>
+            <e type="function" args="2">rel_illum</e>
+            <e type="operand">Dgrad2</e>
+            <e type="function" args="1">illum10th</e>
+            <e type="operand">Dgrad1</e>
+            <e type="function" args="1">illum10th</e>
+            <e type="operator" args="2">/</e>
+            <e type="operator" args="2">:</e>
+          </input>
+        </math>
+      </region>
+      <region id="27" top="981" color="#000000" bgColor="#ffffff">
+        <area terminator="true" />
+      </region>
+    </region>
+    <region id="28" left="18" top="999" width="296" height="46" color="#0000ff" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="3">
         <input>
           <e type="operand">0</e>
-          <e type="operand">110</e>
+          <e type="operand">120</e>
           <e type="operand">2</e>
           <e type="operator" args="2">/</e>
           <e type="operand">π</e>
@@ -427,7 +522,7 @@
           <e type="operator" args="2">*</e>
         </input>
         <result action="numeric">
-          <e type="operand">3.8272</e>
+          <e type="operand">4.133</e>
           <e type="operand">0</e>
           <e type="operand">1</e>
           <e type="operand">2</e>
@@ -435,11 +530,23 @@
         </result>
       </math>
     </region>
-    <region id="27" left="27" top="783" width="243" height="44" color="#0000ff" bgColor="#ffffff" fontSize="10">
+    <region id="29" left="540" top="999" width="229" height="26" color="#ff0000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
+          <e type="operand">30</e>
+          <e type="operand">179</e>
+          <e type="function" args="2">rel_illum</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.6629</e>
+        </result>
+      </math>
+    </region>
+    <region id="30" left="18" top="1035" width="348" height="46" color="#0000ff" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="0">
+        <input>
           <e type="operand">0</e>
-          <e type="operand">180</e>
+          <e type="operand">120</e>
           <e type="operand">2</e>
           <e type="operator" args="2">/</e>
           <e type="operand">π</e>
@@ -452,9 +559,13 @@
           <e type="function" args="1">sensor_xy</e>
           <e type="operand">2</e>
           <e type="operator" args="2">*</e>
+          <e type="operand">1</e>
+          <e type="operand">0.0022</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
         </input>
         <result action="numeric">
-          <e type="operand">6.2</e>
+          <e type="operand">1879</e>
           <e type="operand">0</e>
           <e type="operand">1</e>
           <e type="operand">2</e>
@@ -462,27 +573,120 @@
         </result>
       </math>
     </region>
-    <region id="28" top="828" color="#000000" bgColor="#ffffff">
+    <region id="31" left="18" top="1080" width="348" height="46" color="#0000ff" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="0">
+        <input>
+          <e type="operand">0</e>
+          <e type="operand">158</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">π</e>
+          <e type="operand">180</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">1</e>
+          <e type="operand">0.0022</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2474</e>
+          <e type="operand">0</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+        </result>
+      </math>
+    </region>
+    <region id="32" top="1125" color="#000000" bgColor="#ffffff">
       <area terminator="true" />
     </region>
   </region>
-  <region id="29" top="846" color="#000000" bgColor="#ffffff">
+  <region id="33" top="1134" color="#000000" bgColor="#ffffff">
     <area collapsed="true" />
-    <region id="30" left="18" top="864" width="290" height="27" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="34" left="396" top="1143" width="451" height="73" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
+          <e type="operand">a</e>
+          <e type="function" args="1">distortFT</e>
+          <e type="operand">0</e>
+          <e type="operand">a</e>
+          <e type="operand">π</e>
+          <e type="operand">360</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="2">el</e>
+          <e type="operand">a</e>
+          <e type="function" args="1">sensor_x_FT</e>
+          <e type="operator" args="2">-</e>
+          <e type="operand">a</e>
+          <e type="function" args="1">sensor_x_FT</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">100</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="35" left="18" top="1152" width="416" height="56" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">a</e>
+          <e type="function" args="1">sensor_x_FT</e>
+          <e type="operand">EFL</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="2">el</e>
+          <e type="operand">0</e>
+          <e type="operand">a</e>
+          <e type="operand">π</e>
+          <e type="operand">360</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+          <e type="function" args="1">lens_fa</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="2">el</e>
+          <e type="function" args="1">r_map_FT</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="36" left="36" top="1224" width="530" height="158" color="#000000" bgColor="#ffffff" fontSize="10">
+      <plot type="2d" render="lines" scale_x="0.279229679955299" scale_y="0.127799243623281" scale_z="0.695711542108589" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-240" transpose_y="5" transpose_z="0">
+        <input>
+          <e type="operand">x</e>
+          <e type="function" args="1">distortFT</e>
+        </input>
+      </plot>
+    </region>
+    <region id="37" top="1404" color="#000000" bgColor="#ffffff">
+      <area terminator="true" />
+    </region>
+  </region>
+  <region id="38" top="1422" color="#000000" bgColor="#ffffff">
+    <area collapsed="false" />
+    <region id="39" left="18" top="1440" width="270" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
           <e type="operand">y</e>
           <e type="operand">z</e>
-          <e type="operand">t</e>
           <e type="function" args="3">line_fa</e>
-          <e type="operand">t</e>
-          <e type="operand">0.5</e>
-          <e type="operator" args="2">-</e>
-          <e type="bracket">(</e>
-          <e type="operand">12</e>
-          <e type="operator" args="2">*</e>
-          <e type="operand">z</e>
-          <e type="operator" args="2">*</e>
+          <e type="operand">x</e>
           <e type="operand">y</e>
           <e type="operand">z</e>
           <e type="function" args="3">xyz2fa</e>
@@ -490,7 +694,7 @@
         </input>
       </math>
     </region>
-    <region id="31" left="18" top="900" width="258" height="42" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="40" left="18" top="1476" width="298" height="44" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">Dgrad</e>
@@ -515,7 +719,7 @@
         </input>
       </math>
     </region>
-    <region id="32" left="18" top="945" width="326" height="133" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="41" left="18" top="1521" width="376" height="140" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">Agrad</e>
@@ -566,7 +770,7 @@
         </input>
       </math>
     </region>
-    <region id="33" left="423" top="945" width="318" height="117" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="42" left="423" top="1521" width="368" height="123" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">Agrad</e>
@@ -615,13 +819,22 @@
         </input>
       </math>
     </region>
-    <region id="34" top="1098" color="#000000" bgColor="#ffffff">
+    <region id="43" top="1683" color="#000000" bgColor="#ffffff">
       <area terminator="true" />
     </region>
   </region>
-  <region id="35" top="1116" color="#000000" bgColor="#ffffff">
-    <area collapsed="true" />
-    <region id="36" left="477" top="1134" width="305" height="57" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="44" top="1701" color="#000000" bgColor="#ffffff">
+    <area collapsed="false" />
+    <region id="45" left="18" top="1719" width="101" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">stpC</e>
+          <e type="operand">0.025</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="46" left="477" top="1728" width="365" height="60" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">x</e>
@@ -654,7 +867,7 @@
         </input>
       </math>
     </region>
-    <region id="37" left="9" top="1143" width="497" height="113" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="47" left="9" top="1737" width="552" height="119" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">Dgrad</e>
@@ -662,7 +875,7 @@
           <e type="operand">t</e>
           <e type="operand">0</e>
           <e type="operand">1</e>
-          <e type="operand">0.025</e>
+          <e type="operand">stpC</e>
           <e type="function" preserve="true" args="3">range</e>
           <e type="operand">t</e>
           <e type="operand">0</e>
@@ -691,32 +904,188 @@
         </input>
       </math>
     </region>
-    <region id="38" left="9" top="1269" width="433" height="113" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="48" left="243" top="1854" width="573" height="247" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
-          <e type="operand">y</e>
-          <e type="operand">z</e>
-          <e type="function" args="2">line_</e>
+          <e type="operand">Dgrad</e>
+          <e type="function" args="1">arc_</e>
           <e type="operand">t</e>
           <e type="operand">0</e>
-          <e type="operand">1</e>
-          <e type="operand">0.05</e>
+          <e type="operand">0.25</e>
+          <e type="operand">stpC</e>
+          <e type="operand">4</e>
+          <e type="operator" args="2">/</e>
           <e type="function" preserve="true" args="3">range</e>
           <e type="operand">t</e>
           <e type="operand">0</e>
           <e type="operator" args="2">≡</e>
           <e type="operand">grp</e>
+          <e type="operand">Dgrad</e>
+          <e type="operand">0</e>
+          <e type="operand">t</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">0.25</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="2">circle_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">Dgrad</e>
+          <e type="operand">t</e>
+          <e type="operand">0.25</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="2">circle_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">t</e>
+          <e type="operand">0</e>
+          <e type="operand">1</e>
+          <e type="operand">4</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">stpC</e>
+          <e type="operand">4</e>
+          <e type="operator" args="2">/</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">0</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">Dgrad</e>
+          <e type="operand">0.5</e>
+          <e type="operand">t</e>
+          <e type="operator" args="2">-</e>
+          <e type="function" args="2">circle_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">Dgrad</e>
+          <e type="operand">0.5</e>
+          <e type="operand">t</e>
+          <e type="operator" args="2">-</e>
+          <e type="function" args="2">circle_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">grp</e>
+          <e type="operand">3</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="5">line</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="49" left="18" top="2106" width="93" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">stpL</e>
+          <e type="operand">0.05</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="50" left="18" top="2133" width="571" height="295" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">dx</e>
           <e type="operand">y</e>
           <e type="operand">z</e>
+          <e type="function" args="3">line_</e>
+          <e type="operand">t</e>
           <e type="operand">0</e>
+          <e type="operand">0.5</e>
+          <e type="operand">stpL</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">0</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">grp</e>
+          <e type="operand">t</e>
+          <e type="operand">dx</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">y</e>
+          <e type="operand">z</e>
           <e type="function" args="3">line_fa</e>
           <e type="function" args="1">sensor_xy</e>
           <e type="operator" args="2">:</e>
           <e type="operand">grp</e>
           <e type="operand">grp</e>
+          <e type="operand">t</e>
+          <e type="operand">dx</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
           <e type="operand">y</e>
           <e type="operand">z</e>
+          <e type="function" args="3">line_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
           <e type="operand">t</e>
+          <e type="operand">0.5</e>
+          <e type="operand">0.5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">0.5</e>
+          <e type="operand">stpL</e>
+          <e type="operator" args="2">-</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">t</e>
+          <e type="operand">dx</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">y</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">line_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">t</e>
+          <e type="operand">0.5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">0</e>
+          <e type="operand">0.5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">stpL</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">t</e>
+          <e type="operand">dx</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">y</e>
+          <e type="operand">z</e>
           <e type="function" args="3">line_fa</e>
           <e type="function" args="1">sensor_xy</e>
           <e type="function" preserve="true" args="2">stack</e>
@@ -724,29 +1093,148 @@
           <e type="function" preserve="true" args="3">if</e>
           <e type="function" preserve="true" args="3">for</e>
           <e type="operand">grp</e>
-          <e type="operand">2</e>
+          <e type="operand">4</e>
           <e type="operand">1</e>
-          <e type="function" preserve="true" args="4">line</e>
+          <e type="function" preserve="true" args="6">line</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region id="39" left="9" top="1395" width="497" height="113" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="51" left="486" top="2133" width="579" height="295" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">dy</e>
+          <e type="operand">x</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">lineV_</e>
+          <e type="operand">t</e>
+          <e type="operand">0</e>
+          <e type="operand">0.5</e>
+          <e type="operand">stpL</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">0</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">grp</e>
+          <e type="operand">x</e>
+          <e type="operand">t</e>
+          <e type="operand">dy</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">line_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">x</e>
+          <e type="operand">t</e>
+          <e type="operand">dy</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">line_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">t</e>
+          <e type="operand">0.5</e>
+          <e type="operand">0.5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">0.5</e>
+          <e type="operand">stpL</e>
+          <e type="operator" args="2">-</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">x</e>
+          <e type="operand">t</e>
+          <e type="operand">dy</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">line_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">t</e>
+          <e type="operand">0.5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">0</e>
+          <e type="operand">0.5</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">stpL</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">x</e>
+          <e type="operand">t</e>
+          <e type="operand">dy</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">line_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">grp</e>
+          <e type="operand">4</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="6">line</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="52" left="27" top="2439" width="93" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">stpP</e>
+          <e type="operand">0.05</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="53" left="27" top="2457" width="552" height="295" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">Agrad</e>
           <e type="function" args="1">parall_</e>
           <e type="operand">t</e>
+          <e type="operand">0.5</e>
           <e type="operand">0</e>
-          <e type="operand">1</e>
-          <e type="operand">0.05</e>
+          <e type="operand">0.5</e>
+          <e type="operand">stpP</e>
+          <e type="operator" args="2">-</e>
           <e type="function" preserve="true" args="3">range</e>
           <e type="operand">t</e>
-          <e type="operand">0</e>
+          <e type="operand">0.5</e>
           <e type="operator" args="2">≡</e>
           <e type="operand">grp</e>
           <e type="operand">Agrad</e>
-          <e type="operand">0</e>
+          <e type="operand">t</e>
           <e type="function" args="2">parall_fa</e>
           <e type="function" args="1">sensor_xy</e>
           <e type="operator" args="2">:</e>
@@ -760,15 +1248,68 @@
           <e type="operator" args="2">:</e>
           <e type="function" preserve="true" args="3">if</e>
           <e type="function" preserve="true" args="3">for</e>
-          <e type="operand">grp</e>
-          <e type="operand">2</e>
+          <e type="operand">t</e>
+          <e type="operand">0</e>
           <e type="operand">1</e>
-          <e type="function" preserve="true" args="4">line</e>
+          <e type="operand">stpP</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">Agrad</e>
+          <e type="operand">t</e>
+          <e type="function" args="2">parall_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">t</e>
+          <e type="operand">1</e>
+          <e type="operand">0.5</e>
+          <e type="operand">1</e>
+          <e type="operand">stpP</e>
+          <e type="operator" args="2">-</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">t</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">Agrad</e>
+          <e type="operand">t</e>
+          <e type="function" args="2">parall_fa</e>
+          <e type="function" args="1">sensor_xy</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">grp</e>
+          <e type="operand">4</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="6">line</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region id="40" left="18" top="1521" width="481" height="113" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="54" left="18" top="2781" width="93" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">stpM</e>
+          <e type="operand">0.05</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="55" left="18" top="2808" width="535" height="119" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">Agrad</e>
@@ -776,14 +1317,14 @@
           <e type="operand">t</e>
           <e type="operand">0</e>
           <e type="operand">1</e>
-          <e type="operand">0.05</e>
+          <e type="operand">stpM</e>
           <e type="function" preserve="true" args="3">range</e>
           <e type="operand">t</e>
           <e type="operand">0</e>
           <e type="operator" args="2">≡</e>
           <e type="operand">grp</e>
           <e type="operand">Agrad</e>
-          <e type="operand">0</e>
+          <e type="operand">t</e>
           <e type="function" args="2">merid_fa</e>
           <e type="function" args="1">sensor_xy</e>
           <e type="operator" args="2">:</e>
@@ -805,13 +1346,13 @@
         </input>
       </math>
     </region>
-    <region id="41" top="1638" color="#000000" bgColor="#ffffff">
+    <region id="56" top="2934" color="#000000" bgColor="#ffffff">
       <area terminator="true" />
     </region>
   </region>
-  <region id="42" top="1665" color="#000000" bgColor="#ffffff">
+  <region id="57" top="2952" color="#000000" bgColor="#ffffff">
     <area collapsed="true" />
-    <region id="43" left="18" top="1683" width="97" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="58" left="18" top="2970" width="110" height="27" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
           <e type="operand">pntUP</e>
@@ -824,19 +1365,16 @@
         </input>
       </math>
     </region>
-    <region id="44" left="18" top="1728" width="310" height="143" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="59" left="18" top="3015" width="504" height="115" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
-          <e type="operand">circles</e>
           <e type="operand">start</e>
-          <e type="operand">60</e>
-          <e type="operator" args="2">:</e>
           <e type="operand">step</e>
-          <e type="operand">20</e>
-          <e type="operator" args="2">:</e>
+          <e type="operand">stop</e>
+          <e type="function" args="3">circles</e>
           <e type="operand">α</e>
           <e type="operand">start</e>
-          <e type="operand">180</e>
+          <e type="operand">stop</e>
           <e type="operand">start</e>
           <e type="operand">step</e>
           <e type="operator" args="2">+</e>
@@ -857,64 +1395,249 @@
           <e type="function" preserve="true" args="3">if</e>
           <e type="function" preserve="true" args="3">for</e>
           <e type="operand">grp</e>
-          <e type="operand">4</e>
+          <e type="operand">2</e>
           <e type="operand">1</e>
-          <e type="function" preserve="true" args="6">line</e>
+          <e type="function" preserve="true" args="4">line</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region id="45" left="378" top="1737" width="282" height="87" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="60" left="18" top="3141" width="479" height="115" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
-          <e type="operand">points</e>
+          <e type="operand">start</e>
+          <e type="operand">step</e>
+          <e type="operand">stop</e>
+          <e type="function" args="3">arcs</e>
+          <e type="operand">α</e>
+          <e type="operand">start</e>
+          <e type="operand">stop</e>
+          <e type="operand">start</e>
+          <e type="operand">step</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">α</e>
+          <e type="operand">start</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">grp</e>
+          <e type="operand">α</e>
+          <e type="function" args="1">arc_</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">α</e>
+          <e type="function" args="1">arc_</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">grp</e>
+          <e type="operand">2</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="4">line</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="61" left="423" top="3285" width="440" height="201" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">dx</e>
+          <e type="operand">dy</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">points</e>
           <e type="operand">grp</e>
           <e type="operand">0</e>
-          <e type="operand">1</e>
-          <e type="operand">1</e>
+          <e type="operand">dy</e>
+          <e type="operand">z</e>
           <e type="function" args="3">pnt_</e>
           <e type="operator" args="2">:</e>
           <e type="operand">grp</e>
           <e type="operand">grp</e>
-          <e type="operand">1</e>
-          <e type="operand">1</e>
-          <e type="operand">1</e>
+          <e type="operand">dx</e>
+          <e type="operand">dy</e>
+          <e type="operand">z</e>
           <e type="function" args="3">pnt_</e>
           <e type="function" preserve="true" args="2">stack</e>
           <e type="operator" args="2">:</e>
           <e type="operand">grp</e>
           <e type="operand">grp</e>
+          <e type="operand">dx</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">dy</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">pnt_</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">dx</e>
+          <e type="operand">0</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">pnt_</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">dx</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">0</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">pnt_</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">0</e>
+          <e type="operand">dy</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">pnt_</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">dx</e>
+          <e type="operand">dy</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">pnt_</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">dx</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">dy</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">pnt_</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">9</e>
           <e type="operand">1</e>
+          <e type="function" preserve="true" args="11">line</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="62" left="27" top="3294" width="438" height="243" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">px</e>
+          <e type="operand">py</e>
+          <e type="function" args="2">chipRect</e>
+          <e type="operand">scl</e>
+          <e type="operand">0.001</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">px</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">py</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">px</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">py</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
           <e type="operator" args="1">-</e>
           <e type="operand">1</e>
-          <e type="operand">1</e>
-          <e type="function" args="3">pnt_</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
           <e type="function" preserve="true" args="2">stack</e>
           <e type="operator" args="2">:</e>
           <e type="operand">grp</e>
-          <e type="operand">4</e>
+          <e type="operand">grp</e>
+          <e type="operand">px</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">py</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="1">-</e>
           <e type="operand">1</e>
-          <e type="function" preserve="true" args="6">line</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">px</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">py</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">px</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">py</e>
+          <e type="operand">scl</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="function" preserve="true" args="4">mat</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">7</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="9">line</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region id="46" left="18" top="1881" width="300" height="204" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="63" left="18" top="3546" width="577" height="115" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
-          <e type="operand">lines</e>
           <e type="operand">start</e>
-          <e type="operand">0.1</e>
-          <e type="operator" args="2">:</e>
           <e type="operand">step</e>
-          <e type="operand">0.45</e>
-          <e type="operator" args="2">:</e>
+          <e type="operand">stop</e>
+          <e type="operand">dx</e>
           <e type="operand">z</e>
-          <e type="operand">1</e>
-          <e type="operator" args="2">:</e>
+          <e type="function" args="5">linesH</e>
           <e type="operand">y</e>
           <e type="operand">start</e>
-          <e type="operand">2</e>
+          <e type="operand">stop</e>
           <e type="operand">start</e>
           <e type="operand">step</e>
           <e type="operator" args="2">+</e>
@@ -923,56 +1646,82 @@
           <e type="operand">start</e>
           <e type="operator" args="2">≡</e>
           <e type="operand">grp</e>
+          <e type="operand">dx</e>
           <e type="operand">y</e>
           <e type="operand">z</e>
-          <e type="function" args="2">line_</e>
+          <e type="function" args="3">line_</e>
           <e type="operator" args="2">:</e>
           <e type="operand">grp</e>
           <e type="operand">grp</e>
-          <e type="operand">pntUP</e>
-          <e type="function" preserve="true" args="2">stack</e>
-          <e type="operator" args="2">:</e>
-          <e type="operand">2</e>
-          <e type="operand">1</e>
-          <e type="function" preserve="true" args="4">line</e>
-          <e type="operand">grp</e>
-          <e type="operand">grp</e>
+          <e type="operand">dx</e>
           <e type="operand">y</e>
           <e type="operand">z</e>
-          <e type="function" args="2">line_</e>
+          <e type="function" args="3">line_</e>
           <e type="function" preserve="true" args="2">stack</e>
           <e type="operator" args="2">:</e>
-          <e type="operand">grp</e>
-          <e type="operand">grp</e>
-          <e type="operand">pntUP</e>
-          <e type="function" preserve="true" args="2">stack</e>
-          <e type="operator" args="2">:</e>
-          <e type="operand">2</e>
-          <e type="operand">1</e>
-          <e type="function" preserve="true" args="4">line</e>
           <e type="function" preserve="true" args="3">if</e>
           <e type="function" preserve="true" args="3">for</e>
           <e type="operand">grp</e>
-          <e type="operand">5</e>
+          <e type="operand">2</e>
           <e type="operand">1</e>
-          <e type="function" preserve="true" args="7">line</e>
+          <e type="function" preserve="true" args="4">line</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region id="47" left="378" top="1890" width="316" height="187" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="64" left="18" top="3681" width="585" height="115" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
-          <e type="operand">paralls</e>
           <e type="operand">start</e>
-          <e type="operand">45</e>
-          <e type="operator" args="2">:</e>
           <e type="operand">step</e>
-          <e type="operand">10</e>
+          <e type="operand">stop</e>
+          <e type="operand">dy</e>
+          <e type="operand">z</e>
+          <e type="function" args="5">linesV</e>
+          <e type="operand">y</e>
+          <e type="operand">start</e>
+          <e type="operand">stop</e>
+          <e type="operand">start</e>
+          <e type="operand">step</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" preserve="true" args="3">range</e>
+          <e type="operand">y</e>
+          <e type="operand">start</e>
+          <e type="operator" args="2">≡</e>
+          <e type="operand">grp</e>
+          <e type="operand">dy</e>
+          <e type="operand">y</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">lineV_</e>
           <e type="operator" args="2">:</e>
+          <e type="operand">grp</e>
+          <e type="operand">grp</e>
+          <e type="operand">dy</e>
+          <e type="operand">y</e>
+          <e type="operand">z</e>
+          <e type="function" args="3">lineV_</e>
+          <e type="function" preserve="true" args="2">stack</e>
+          <e type="operator" args="2">:</e>
+          <e type="function" preserve="true" args="3">if</e>
+          <e type="function" preserve="true" args="3">for</e>
+          <e type="operand">grp</e>
+          <e type="operand">2</e>
+          <e type="operand">1</e>
+          <e type="function" preserve="true" args="4">line</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="65" left="27" top="3816" width="504" height="149" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">start</e>
+          <e type="operand">step</e>
+          <e type="operand">stop</e>
+          <e type="function" args="3">paralls</e>
           <e type="operand">a</e>
           <e type="operand">start</e>
-          <e type="operand">85</e>
+          <e type="operand">stop</e>
           <e type="operand">start</e>
           <e type="operand">step</e>
           <e type="operator" args="2">+</e>
@@ -982,53 +1731,38 @@
           <e type="operator" args="2">≡</e>
           <e type="operand">grp</e>
           <e type="operand">a</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
           <e type="function" args="1">parall_</e>
           <e type="operator" args="2">:</e>
           <e type="operand">grp</e>
           <e type="operand">grp</e>
-          <e type="operand">pntUP</e>
-          <e type="function" preserve="true" args="2">stack</e>
-          <e type="operator" args="2">:</e>
-          <e type="operand">2</e>
-          <e type="operand">1</e>
-          <e type="function" preserve="true" args="4">line</e>
-          <e type="operand">grp</e>
-          <e type="operand">grp</e>
           <e type="operand">a</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
           <e type="function" args="1">parall_</e>
           <e type="function" preserve="true" args="2">stack</e>
           <e type="operator" args="2">:</e>
-          <e type="operand">grp</e>
-          <e type="operand">grp</e>
-          <e type="operand">pntUP</e>
-          <e type="function" preserve="true" args="2">stack</e>
-          <e type="operator" args="2">:</e>
-          <e type="operand">2</e>
-          <e type="operand">1</e>
-          <e type="function" preserve="true" args="4">line</e>
           <e type="function" preserve="true" args="3">if</e>
           <e type="function" preserve="true" args="3">for</e>
           <e type="operand">grp</e>
-          <e type="operand">4</e>
+          <e type="operand">2</e>
           <e type="operand">1</e>
-          <e type="function" preserve="true" args="6">line</e>
+          <e type="function" preserve="true" args="4">line</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region id="48" left="378" top="2106" width="300" height="187" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region id="66" left="27" top="3942" width="495" height="149" color="#000000" bgColor="#ffffff" fontSize="10">
       <math>
         <input>
-          <e type="operand">merids</e>
           <e type="operand">start</e>
-          <e type="operand">45</e>
-          <e type="operator" args="2">:</e>
           <e type="operand">step</e>
-          <e type="operand">5</e>
-          <e type="operator" args="2">:</e>
+          <e type="operand">stop</e>
+          <e type="function" args="3">merids</e>
           <e type="operand">a</e>
           <e type="operand">start</e>
-          <e type="operand">60</e>
+          <e type="operand">stop</e>
           <e type="operand">start</e>
           <e type="operand">step</e>
           <e type="operator" args="2">+</e>
@@ -1038,83 +1772,105 @@
           <e type="operator" args="2">≡</e>
           <e type="operand">grp</e>
           <e type="operand">a</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
           <e type="function" args="1">merid_</e>
           <e type="operator" args="2">:</e>
-          <e type="operand">grp</e>
-          <e type="operand">grp</e>
-          <e type="operand">pntUP</e>
-          <e type="function" preserve="true" args="2">stack</e>
-          <e type="operator" args="2">:</e>
-          <e type="operand">2</e>
-          <e type="operand">1</e>
-          <e type="function" preserve="true" args="4">line</e>
           <e type="operand">grp</e>
           <e type="operand">grp</e>
           <e type="operand">a</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
           <e type="function" args="1">merid_</e>
           <e type="function" preserve="true" args="2">stack</e>
           <e type="operator" args="2">:</e>
-          <e type="operand">grp</e>
-          <e type="operand">grp</e>
-          <e type="operand">pntUP</e>
-          <e type="function" preserve="true" args="2">stack</e>
-          <e type="operator" args="2">:</e>
-          <e type="operand">2</e>
-          <e type="operand">1</e>
-          <e type="function" preserve="true" args="4">line</e>
           <e type="function" preserve="true" args="3">if</e>
           <e type="function" preserve="true" args="3">for</e>
           <e type="operand">grp</e>
-          <e type="operand">4</e>
+          <e type="operand">2</e>
           <e type="operand">1</e>
-          <e type="function" preserve="true" args="6">line</e>
+          <e type="function" preserve="true" args="4">line</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region id="49" top="2277" color="#000000" bgColor="#ffffff">
+    <region id="67" top="4059" color="#000000" bgColor="#ffffff">
       <area terminator="true" />
     </region>
   </region>
-  <region id="50" left="36" top="2295" width="424" height="23" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="68" left="36" top="4095" width="368" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <text lang="rus">
       <p>|---------------        11        --------------|   </p>
     </text>
   </region>
-  <region id="51" left="468" top="2313" width="72" height="23" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="69" left="648" top="4113" width="77" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <text lang="rus">
       <p>&lt;= 0////</p>
     </text>
   </region>
-  <region id="52" left="36" top="2322" width="396" height="694" color="#000000" bgColor="#ffffff" fontSize="10">
-    <plot type="2d" render="lines" scale_x="31.1972916892319" scale_y="31.1972916892319" scale_z="31.1972916892319" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="-4" transpose_y="0" transpose_z="0">
+  <region id="70" left="36" top="4122" width="538" height="696" color="#000000" bgColor="#ffffff" fontSize="10">
+    <plot grid="false" type="2d" render="lines" scale_x="22.7386602879015" scale_y="22.7386602879015" scale_z="22.7386602879015" rotate_x="0" rotate_y="0" rotate_z="0" transpose_x="1" transpose_y="1" transpose_z="0">
       <input>
-        <e type="operand">1</e>
+        <e type="operand">4600</e>
+        <e type="operand">6200</e>
+        <e type="function" args="2">chipRect</e>
+        <e type="operand">90</e>
+        <e type="operand">20</e>
+        <e type="operand">170</e>
+        <e type="function" args="3">paralls</e>
         <e type="operand">0</e>
-        <e type="operand">1</e>
-        <e type="function" args="3">pnt_</e>
-        <e type="operand">paralls</e>
-        <e type="operand">lines</e>
-        <e type="operand">circles</e>
-        <e type="operand">1</e>
-        <e type="operand">1</e>
         <e type="operator" args="1">-</e>
+        <e type="operand">25</e>
+        <e type="operator" args="1">-</e>
+        <e type="operand">400</e>
+        <e type="operator" args="1">-</e>
+        <e type="operand">280</e>
+        <e type="operand">300</e>
+        <e type="function" args="5">linesH</e>
+        <e type="operand">90</e>
+        <e type="operand">90</e>
+        <e type="operand">180</e>
+        <e type="function" args="3">circles</e>
+        <e type="operand">280</e>
+        <e type="operand">400</e>
+        <e type="operand">300</e>
+        <e type="function" args="3">points</e>
+        <e type="operand">90</e>
+        <e type="operand">10</e>
+        <e type="operand">120</e>
+        <e type="function" args="3">merids</e>
+        <e type="operand">4600</e>
+        <e type="operand">6200</e>
+        <e type="function" args="2">chipRect</e>
+        <e type="operand">280</e>
+        <e type="operand">400</e>
+        <e type="operand">300</e>
+        <e type="function" args="3">points</e>
+        <e type="operand">0</e>
+        <e type="operator" args="1">-</e>
+        <e type="operand">25</e>
+        <e type="operator" args="1">-</e>
+        <e type="operand">280</e>
+        <e type="operator" args="1">-</e>
+        <e type="operand">400</e>
+        <e type="operand">300</e>
+        <e type="function" args="5">linesV</e>
+        <e type="operand">100</e>
+        <e type="operand">10</e>
+        <e type="operand">170</e>
+        <e type="function" args="3">arcs</e>
+        <e type="operand">10</e>
         <e type="operand">1</e>
-        <e type="function" args="3">pnt_</e>
-        <e type="operand">merids</e>
-        <e type="operand">points</e>
-        <e type="operand">7</e>
-        <e type="operand">1</e>
-        <e type="function" preserve="true" args="9">sys</e>
+        <e type="function" preserve="true" args="12">sys</e>
       </input>
     </plot>
   </region>
-  <region id="53" left="468" top="2673" width="80" height="23" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="71" left="648" top="4473" width="85" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <text lang="rus">
       <p>&lt;= 10////</p>
     </text>
   </region>
-  <region id="54" left="468" top="2997" width="80" height="23" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="72" left="648" top="4797" width="85" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <text lang="rus">
       <p>&lt;= 19////</p>
     </text>
